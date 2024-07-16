@@ -1,24 +1,26 @@
 # a-vue-calendar
 
-## Project setup
+### How To Install
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+npm i a-vue-calendar
 ```
 
-### Compiles and minifies for production
+### How To Use
 ```
-npm run build
-```
+<template>
+  <div style="width: 250px">
+    <Calendar />
+  </div>
+</template>
 
-### Lints and fixes files
-```
-npm run lint
-```
+<script>
+import Calendar from 'a-vue-calendar'
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+export default {
+  name: 'App',
+  components: {
+    Calendar
+  }
+}
+</script>
+```
